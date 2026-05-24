@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AYCAQ | Real Estate & Design Solutions</title>
+
+<style>
+:root{
+    --primary:#0077cc;
+    --secondary:#ff4fa3;
+    --dark:#1f2937;
+    --light:#f8fafc;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#333;
+    line-height:1.6;
+    background:#fff;
+}
+
+header{
+    background:linear-gradient(135deg,var(--primary),var(--secondary));
+    color:white;
+    text-align:center;
+    padding:120px 20px;
+}
+
+header h1{
+    font-size:4rem;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:1.3rem;
+    max-width:700px;
+    margin:auto;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:15px 35px;
+    background:white;
+    color:var(--primary);
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:50px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+nav{
+    background:white;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+    padding:18px;
+    position:sticky;
+    top:0;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    gap:30px;
+}
+
+nav a{
+    text-decoration:none;
+    color:var(--dark);
+    font-weight:600;
+}
+
+section{
+    padding:80px 10%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    color:var(--primary);
+    font-size:2.5rem;
+}
+
+.about{
+    text-align:center;
+    max-width:900px;
+    margin:auto;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h3{
+    color:var(--secondary);
+    margin-bottom:15px;
+}
+
+.portfolio{
+    background:#f7f9fc;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.gallery-item{
+    height:220px;
+    background:linear-gradient(135deg,#0077cc,#ff4fa3);
+    border-radius:15px;
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact-box{
+    background:linear-gradient(135deg,var(--primary),var(--secondary));
+    color:white;
+    padding:50px;
+    border-radius:20px;
+    max-width:800px;
+    margin:auto;
+}
+
+footer{
+    background:var(--dark);
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>AYCAQ</h1>
+    <p>
+        Creating Exceptional Spaces Through Innovative Real Estate
+        Solutions and Creative Design Excellence.
+    </p>
+
+    <a href="#contact" class="btn">Get Started</a>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section id="about">
+    <div class="section-title">
+        <h2>About AYCAQ</h2>
+    </div>
+
+    <div class="about">
+        <p>
+            AYCAQ is a modern real estate and design company dedicated to
+            helping clients find, develop, and transform properties into
+            beautiful and valuable spaces. Our team combines market expertise,
+            creative vision, and professional execution to deliver outstanding
+            results for residential and commercial clients.
+        </p>
+    </div>
+</section>
+
+<section id="services">
+    <div class="section-title">
+        <h2>Our Services</h2>
+    </div>
+
+    <div class="services">
+
+        <div class="card">
+            <h3>🏠 Real Estate Services</h3>
+            <p>
+                Property sales, investment consulting, market analysis,
+                property management, and real estate advisory services.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🎨 Interior Design</h3>
+            <p>
+                Custom interior design solutions that blend beauty,
+                functionality, and modern aesthetics.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>📐 Architectural Concepts</h3>
+            <p>
+                Innovative planning, space optimization, and conceptual
+                design development for residential and commercial projects.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🏢 Property Development</h3>
+            <p>
+                End-to-end support for property renovation, development,
+                branding, and value enhancement.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="portfolio" class="portfolio">
+    <div class="section-title">
+        <h2>Featured Projects</h2>
+    </div>
+
+    <div class="gallery">
+        <div class="gallery-item"></div>
+        <div class="gallery-item"></div>
+        <div class="gallery-item"></div>
+        <div class="gallery-item"></div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+
+    <div class="contact-box">
+        <h2>Let's Build Something Extraordinary</h2>
+        <br>
+        <p>
+            Whether you're buying property, investing in real estate,
+            or transforming a space through exceptional design,
+            AYCAQ is ready to help.
+        </p>
+
+        <br>
+
+        <p>Email: info@aycaq.com</p>
+        <p>Phone: (000) 000-0000</p>
+        <p>Location: United States</p>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 AYCAQ | Real Estate & Design Solutions. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
